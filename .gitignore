@@ -1,0 +1,12 @@
+# .NET compiled files
+BL/obj/Debug/net6.0/*
+.obj/*
+
+# Code Editor caches
+.vs/*
+.vscode/*
+
+# program.cs 
+.fake
+.ionide
+

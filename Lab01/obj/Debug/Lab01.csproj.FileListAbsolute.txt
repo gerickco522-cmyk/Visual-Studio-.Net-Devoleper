@@ -1,0 +1,14 @@
+D:\Cursos TechEra\Cursos .NET\1. C# Developer\Laboratorio\Lab01\Lab01\bin\Debug\Lab01.exe.config
+D:\Cursos TechEra\Cursos .NET\1. C# Developer\Laboratorio\Lab01\Lab01\bin\Debug\Lab01.exe
+D:\Cursos TechEra\Cursos .NET\1. C# Developer\Laboratorio\Lab01\Lab01\bin\Debug\Lab01.pdb
+D:\Cursos TechEra\Cursos .NET\1. C# Developer\Laboratorio\Lab01\Lab01\obj\Debug\Lab01.csproj.AssemblyReference.cache
+D:\Cursos TechEra\Cursos .NET\1. C# Developer\Laboratorio\Lab01\Lab01\obj\Debug\Lab01.csproj.CoreCompileInputs.cache
+D:\Cursos TechEra\Cursos .NET\1. C# Developer\Laboratorio\Lab01\Lab01\obj\Debug\Lab01.exe
+D:\Cursos TechEra\Cursos .NET\1. C# Developer\Laboratorio\Lab01\Lab01\obj\Debug\Lab01.pdb
+C:\Users\Erick Gonzalez\Desktop\Lab01\Lab01\bin\Debug\Lab01.exe.config
+C:\Users\Erick Gonzalez\Desktop\Lab01\Lab01\bin\Debug\Lab01.exe
+C:\Users\Erick Gonzalez\Desktop\Lab01\Lab01\bin\Debug\Lab01.pdb
+C:\Users\Erick Gonzalez\Desktop\Lab01\Lab01\obj\Debug\Lab01.csproj.AssemblyReference.cache
+C:\Users\Erick Gonzalez\Desktop\Lab01\Lab01\obj\Debug\Lab01.csproj.CoreCompileInputs.cache
+C:\Users\Erick Gonzalez\Desktop\Lab01\Lab01\obj\Debug\Lab01.exe
+C:\Users\Erick Gonzalez\Desktop\Lab01\Lab01\obj\Debug\Lab01.pdb

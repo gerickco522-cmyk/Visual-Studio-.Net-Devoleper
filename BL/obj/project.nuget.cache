@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "EGmc/OUEafO1LdkaKvgzQMjWaNgFIe3LjBqembzzNgsPQJBSqEhMQCDJ1+QnDJgsZSbMdTy926p/T2FCk8ubcA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Erick Gonzalez\\Desktop\\ProyectoDev\\ProyectoDeveloper\\BL\\BL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Erick Gonzalez\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Erick Gonzalez\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Erick Gonzalez\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}
