@@ -79,6 +79,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApplication2.Controllers.StudentsController",
+    "Method": "StudentsList",
+    "RelativePath": "Students/StudentsList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApplication2.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

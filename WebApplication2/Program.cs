@@ -1,11 +1,17 @@
+using BDA;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Required for UseAuthorization()
+builder.Services.AddAuthorization();
+
+// Initialize DB connection
+DB.Initialize(builder.Configuration);
 
 var app = builder.Build();
 

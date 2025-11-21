@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bUqzre1vGnLVH7S9ZuoAArWNfb5TP9rF/1zGI6gDh825VAtg0SSWxqBRVAhpUX1dfvAtdNaiQfUuc39ZhKlDkg==",
+  "dgSpecHash": "7v3VJSUaf6956hK7x+g6H8dGiWw1qXAEnWkwwZ63N4hPPuqcqdBgfqnkIq0EH52+f4pq5d2f2doceD7Vt2Ug+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Erick Gonzalez\\Desktop\\ProyectoDev\\ProyectoDeveloper\\BE\\BE.csproj",
+  "projectFilePath": "C:\\Users\\Erick Gonzalez\\Desktop\\ProyectoDevGithub\\Visual-Studio-.Net-Devoleper\\BE\\BE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Erick Gonzalez\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
     "C:\\Users\\Erick Gonzalez\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",

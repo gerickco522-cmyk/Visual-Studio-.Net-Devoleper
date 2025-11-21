@@ -1,0 +1,16 @@
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\BDA\bin\Debug\net6.0\BDA.deps.json
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\BDA\bin\Debug\net6.0\BDA.dll
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\BDA\bin\Debug\net6.0\BDA.pdb
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\BDA\bin\Debug\net6.0\BE.dll
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\BDA\bin\Debug\net6.0\BE.pdb
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\BDA\obj\Debug\net6.0\BDA.csproj.AssemblyReference.cache
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\BDA\obj\Debug\net6.0\BDA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\BDA\obj\Debug\net6.0\BDA.AssemblyInfoInputs.cache
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\BDA\obj\Debug\net6.0\BDA.AssemblyInfo.cs
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\BDA\obj\Debug\net6.0\BDA.csproj.CoreCompileInputs.cache
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\BDA\obj\Debug\net6.0\BDA.sourcelink.json
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\BDA\obj\Debug\net6.0\BDA.csproj.Up2Date
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\BDA\obj\Debug\net6.0\BDA.dll
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\BDA\obj\Debug\net6.0\refint\BDA.dll
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\BDA\obj\Debug\net6.0\BDA.pdb
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\BDA\obj\Debug\net6.0\ref\BDA.dll
