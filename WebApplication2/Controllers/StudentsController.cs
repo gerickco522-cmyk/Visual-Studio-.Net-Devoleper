@@ -1,4 +1,5 @@
 ﻿using BE.DTO;
+using BE.Request;
 using BE.Response;
 using BL.StudentsBL;
 using Microsoft.AspNetCore.Mvc;
@@ -17,7 +18,96 @@ namespace WebApplication2.Controllers
             {
                 StudentsBL studentsBL = new();
                 response = studentsBL.GetStudents();
-                response.statusCode = 200;
+                response.status = 200;
+                response.TotalRowCount = response.data != null ? response.data.Count : 0;
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                return Problem(detail: ex.Message, statusCode: 500);
+            }
+        }
+
+        [HttpPost("StudentsListFilter")]
+        public IActionResult StudentsListFilter([FromBody] StudentsRequest students)
+        {
+            Response<List<Students>> response = new();
+            try
+            {
+                StudentsBL studentsBL = new();
+                response = studentsBL.GetStudents(students);
+                response.status = 200;
+                response.TotalRowCount = response.data != null ? response.data.Count : 0;
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                return Problem(detail: ex.Message, statusCode: 500);
+            }
+        }
+
+        [HttpPost("InsertStudents")]
+        public IActionResult InsertStudents([FromBody] StudentsInsertRequest students)
+        {
+            Response<List<Students>> response = new();
+            try
+            {
+                StudentsBL studentsBL = new();
+                response = studentsBL.InsertStudents(students);
+                response.status = 200;
+                response.TotalRowCount = response.data != null ? response.data.Count : 0;
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                return Problem(detail: ex.Message, statusCode: 500);
+            }
+        }
+        [HttpPut("UpdateStudent")]
+        public IActionResult UpdateStudent([FromBody] Students students)
+        {
+            Response<List<Students>> response = new();
+            try
+            {
+                StudentsBL studentsBL = new();
+                response = studentsBL.UpdateStudent(students);
+                response.status = 200;
+                response.TotalRowCount = response.data != null ? response.data.Count : 0;
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                return Problem(detail: ex.Message, statusCode: 500);
+            }
+        }
+
+        [HttpDelete("DeleteStudents")]
+        public IActionResult DeleteStudents([FromBody] Students students)
+        {
+            Response<List<Students>> response = new();
+            try
+            {
+                StudentsBL studentsBL = new();
+                response = studentsBL.DeleteStudents(students);
+                response.status = 200;
+                response.TotalRowCount = response.data != null ? response.data.Count : 0;
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                return Problem(detail: ex.Message, statusCode: 500);
+            }
+        }
+
+        [HttpPost("InsertStudentsBulk")]
+        public IActionResult InsertStudentsBulk([FromBody] List<StudentsInsertRequest> students)
+        {
+            Response<List<Students>> response = new();
+            try
+            {
+                StudentsBL studentsBL = new();
+                response = studentsBL.InsertStudentsBulk(students);
+                response.status = 200;
                 response.TotalRowCount = response.data != null ? response.data.Count : 0;
                 return Ok(response);
             }

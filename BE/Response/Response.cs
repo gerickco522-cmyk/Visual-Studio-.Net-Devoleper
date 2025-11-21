@@ -12,7 +12,7 @@ namespace BE.Response
         public string? message { get; set; }
         public T? data { get; set; }
         public int? TotalRowCount { get; set; }
-        public int? statusCode { get; set; }
+        public int? status { get; set; }
 
     }
 
