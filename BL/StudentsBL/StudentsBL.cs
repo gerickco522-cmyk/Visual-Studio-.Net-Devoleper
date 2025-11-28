@@ -2,6 +2,8 @@
 using BE.DTO;
 using BE.Request;
 using BE.Response;
+using BL.Estructura;
+using Microsoft.Extensions.Configuration;
 
 namespace BL.StudentsBL
 {
@@ -18,8 +20,14 @@ namespace BL.StudentsBL
         public Response<List<Students>> GetStudents(StudentsRequest students)
         {
             StudentsDA studentsDA = new();
-            var ListStudents = new Response<List<Students>>();
-            ListStudents = studentsDA.GetStudents(students);
+            Log log = new();
+            GeneracionExcel generacionExcel = new();
+            GenerarPdf generarPdf = new();
+             //ListStudents = new Response<List<Students>>();
+            var ListStudents = studentsDA.GetStudents(students);
+            //Task.Run(() =>log.WriteLog("Ejecución de servicio de lesctura de estudiantes filtrados"));
+            //generacionExcel.GenerarExcel(ListStudents.data);
+            generarPdf.GenerarDocumento(ListStudents.data);
             return ListStudents;
         }
 

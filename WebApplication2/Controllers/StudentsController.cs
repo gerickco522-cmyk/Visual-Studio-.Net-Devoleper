@@ -1,13 +1,16 @@
 ﻿using BE.DTO;
 using BE.Request;
 using BE.Response;
+using BL.Estructura;
 using BL.StudentsBL;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication2.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class StudentsController : ControllerBase
     {
         [HttpGet("StudentsList")]
@@ -109,6 +112,27 @@ namespace WebApplication2.Controllers
                 response = studentsBL.InsertStudentsBulk(students);
                 response.status = 200;
                 response.TotalRowCount = response.data != null ? response.data.Count : 0;
+                return Ok(response);
+            }
+            catch (Exception ex)
+            {
+                return Problem(detail: ex.Message, statusCode: 500);
+            }
+        }
+
+        [HttpPost("ImpresionPDf")]
+        [AllowAnonymous]
+        public IActionResult ImpresionPDf([FromBody] StudentsRequest students)
+        {
+            Response<string> response = new();
+            try
+            {
+                StudentsBL studentsBL = new();
+                var studentsResponse = studentsBL.GetStudents(students);
+                GenerarPdf generarPdf = new();
+                response.data = generarPdf.GenerarDocumentoBase64(studentsResponse.data);
+                response.status = 200;
+                response.TotalRowCount = studentsResponse.data != null ? studentsResponse.data.Count : 0;
                 return Ok(response);
             }
             catch (Exception ex)
