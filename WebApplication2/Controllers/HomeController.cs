@@ -243,7 +243,7 @@ namespace WebApplication2.Controllers
                 {
                     data = respuesta,
                     message = "Orden creada exitosamente",
-                    statusCode = 200,
+                    status = 200,
                     TotalRowCount = 1,
                     VariableBase1 = "ValorBase1",
                     VariableBase2 = "ValorBase2"

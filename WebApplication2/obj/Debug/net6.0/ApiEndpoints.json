@@ -80,12 +80,92 @@
   },
   {
     "ContainingType": "WebApplication2.Controllers.StudentsController",
+    "Method": "DeleteStudents",
+    "RelativePath": "Students/DeleteStudents",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "students",
+        "Type": "BE.DTO.Students",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2.Controllers.StudentsController",
+    "Method": "InsertStudents",
+    "RelativePath": "Students/InsertStudents",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "students",
+        "Type": "BE.Request.StudentsInsertRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2.Controllers.StudentsController",
+    "Method": "InsertStudentsBulk",
+    "RelativePath": "Students/InsertStudentsBulk",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "students",
+        "Type": "System.Collections.Generic.List\u00601[[BE.Request.StudentsInsertRequest, BE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2.Controllers.StudentsController",
     "Method": "StudentsList",
     "RelativePath": "Students/StudentsList",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2.Controllers.StudentsController",
+    "Method": "StudentsListFilter",
+    "RelativePath": "Students/StudentsListFilter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "students",
+        "Type": "BE.Request.StudentsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2.Controllers.StudentsController",
+    "Method": "UpdateStudent",
+    "RelativePath": "Students/UpdateStudent",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "students",
+        "Type": "BE.DTO.Students",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

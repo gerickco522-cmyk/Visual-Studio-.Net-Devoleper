@@ -121,3 +121,11 @@ C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\W
 C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\WebApplication2\obj\Debug\net6.0\WebApplication2.pdb
 C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\WebApplication2\obj\Debug\net6.0\WebApplication2.genruntimeconfig.cache
 C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\WebApplication2\obj\Debug\net6.0\ref\WebApplication2.dll
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\WebApplication2\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\WebApplication2\bin\Debug\net6.0\EPPlus.dll
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\WebApplication2\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\WebApplication2\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\WebApplication2\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\WebApplication2\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\WebApplication2\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Erick Gonzalez\Desktop\ProyectoDevGithub\Visual-Studio-.Net-Devoleper\WebApplication2\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll

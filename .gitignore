@@ -1,6 +1,7 @@
 # .NET compiled files
 BL/obj/Debug/net6.0/*
 .obj/*
+WebApplication2/obj/Debug/net6.0/*
 
 # Code Editor caches
 .vs/*
