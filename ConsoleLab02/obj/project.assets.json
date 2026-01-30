@@ -387,11 +387,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Erick Gonzalez\\Desktop\\ProyectoDevGithub\\Visual-Studio-.Net-Devoleper\\ConsoleLab02\\ConsoleLab02.csproj",
+      "projectUniqueName": "C:\\Users\\Erick Gonzalez\\Desktop\\.netEnterprise\\NetDevelop\\Visual-Studio-.Net-Devoleper\\ConsoleLab02\\ConsoleLab02.csproj",
       "projectName": "ConsoleLab02",
-      "projectPath": "C:\\Users\\Erick Gonzalez\\Desktop\\ProyectoDevGithub\\Visual-Studio-.Net-Devoleper\\ConsoleLab02\\ConsoleLab02.csproj",
+      "projectPath": "C:\\Users\\Erick Gonzalez\\Desktop\\.netEnterprise\\NetDevelop\\Visual-Studio-.Net-Devoleper\\ConsoleLab02\\ConsoleLab02.csproj",
       "packagesPath": "C:\\Users\\Erick Gonzalez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Erick Gonzalez\\Desktop\\ProyectoDevGithub\\Visual-Studio-.Net-Devoleper\\ConsoleLab02\\obj\\",
+      "outputPath": "C:\\Users\\Erick Gonzalez\\Desktop\\.netEnterprise\\NetDevelop\\Visual-Studio-.Net-Devoleper\\ConsoleLab02\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -413,8 +413,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Erick Gonzalez\\Desktop\\ProyectoDevGithub\\Visual-Studio-.Net-Devoleper\\BL\\BL.csproj": {
-              "projectPath": "C:\\Users\\Erick Gonzalez\\Desktop\\ProyectoDevGithub\\Visual-Studio-.Net-Devoleper\\BL\\BL.csproj"
+            "C:\\Users\\Erick Gonzalez\\Desktop\\.netEnterprise\\NetDevelop\\Visual-Studio-.Net-Devoleper\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\Erick Gonzalez\\Desktop\\.netEnterprise\\NetDevelop\\Visual-Studio-.Net-Devoleper\\BL\\BL.csproj"
             }
           }
         }

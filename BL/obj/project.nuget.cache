@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qVcHUU/UsNbve2qj3y4b1pWzRoE3JejmL+SNFAPol7uBBViWfHRzi3oabMfwhrY8fN7z6P3CcC2S7OVBs4E5Og==",
+  "dgSpecHash": "I2/lfLXex03YtyQA3efAb1jjn1gDF/B/QqaJzfHx50G6DFD4uQrTrniAMl3YRDW7gw3Jbitbz1yIrUMmo0m36Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Erick Gonzalez\\Desktop\\ProyectoDevGithub\\Visual-Studio-.Net-Devoleper\\BL\\BL.csproj",
+  "projectFilePath": "C:\\Users\\Erick Gonzalez\\Desktop\\.netEnterprise\\NetDevelop\\Visual-Studio-.Net-Devoleper\\BL\\BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Erick Gonzalez\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Erick Gonzalez\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
