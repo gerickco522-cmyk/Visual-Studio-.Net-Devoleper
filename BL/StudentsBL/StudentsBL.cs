@@ -26,7 +26,7 @@ namespace BL.StudentsBL
              //ListStudents = new Response<List<Students>>();
             var ListStudents = studentsDA.GetStudents(students);
             //Task.Run(() =>log.WriteLog("Ejecución de servicio de lesctura de estudiantes filtrados"));
-            //generacionExcel.GenerarExcel(ListStudents.data);
+            generacionExcel.GenerarExcel(ListStudents.data);
             generarPdf.GenerarDocumento(ListStudents.data);
             return ListStudents;
         }

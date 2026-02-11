@@ -12,7 +12,7 @@ namespace WebApplication2.Controllers
     public class UsuariosController : ControllerBase
     {
         [HttpPost("UserListFilter")]
-        public IActionResult StudentsListFilter([FromBody] Usuarios request)
+        public IActionResult UserListFilter([FromBody] Usuarios request)
         {
             Response<List<Usuarios>> response = new();
             try
@@ -30,7 +30,7 @@ namespace WebApplication2.Controllers
         }
 
         [HttpPost("InsertUser")]
-        public IActionResult InsertStudents([FromBody] Usuarios request)
+        public IActionResult InsertUser([FromBody] Usuarios request)
         {
             Response<string> response = new();
             try

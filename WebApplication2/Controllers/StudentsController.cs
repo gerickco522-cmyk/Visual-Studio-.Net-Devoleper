@@ -130,6 +130,9 @@ namespace WebApplication2.Controllers
                 StudentsBL studentsBL = new();
                 var studentsResponse = studentsBL.GetStudents(students);
                 GenerarPdf generarPdf = new();
+                generarPdf.GenerarDocumento(studentsResponse.data);
+                GeneracionExcel generacionExcel = new();
+                generacionExcel.GenerarExcel(studentsResponse.data);
                 response.data = generarPdf.GenerarDocumentoBase64(studentsResponse.data);
                 response.status = 200;
                 response.TotalRowCount = studentsResponse.data != null ? studentsResponse.data.Count : 0;
