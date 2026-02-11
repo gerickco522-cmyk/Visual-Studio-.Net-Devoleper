@@ -29,3 +29,5 @@ WebApplication1/bin
 WebApplication1/obj
 WebApplication2/bin
 WebApplication2/obj
+BL/obj/project.assets.json
+BL/obj/project.nuget.cache
